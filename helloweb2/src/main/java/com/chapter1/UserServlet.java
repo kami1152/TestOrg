@@ -27,6 +27,7 @@ public class UserServlet extends HttpServlet {
 	public UserServlet() {
 		super();
 		System.out.println("tet git");
+		System.out.println("tet git2");
 		// TODO Auto-generated constructor stub
 	}
 
