@@ -18,7 +18,7 @@ import com.chapter1.vo.UserVO;
  */
 public class UserServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
+	
 	UserDAO usersDAO = new UserDAO();
 
 	/**
@@ -26,6 +26,7 @@ public class UserServlet extends HttpServlet {
 	 */
 	public UserServlet() {
 		super();
+		System.out.println("git");
 		System.out.println("tet git");
 		// TODO Auto-generated constructor stub
 	}
